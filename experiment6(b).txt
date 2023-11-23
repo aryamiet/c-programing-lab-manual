@@ -1,0 +1,8 @@
+#include<stdio.h>
+void bubble-short(intarr[],intn
+{
+inta[100],n,i,j,t;
+printf('enter the number of an array");
+scanf("%d',& n);
+printf("please enter the array value");
+for(i=o i<n 
