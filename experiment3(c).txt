@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{ int n,area,peri,l,r,b,s;
+printf("n=1for area of circle,n=2for area of rectangle,n=3for area of squar");
+printf("enter your choice");
+scanf("%d",&n);
+switch(n){
+case1: printf("enter the radius");
+scanf("%d,&r); area=3.14*r*r; peri=2*r*3.15;
+printf("area ofcircle is=%d\n,area);
+printf("peri of circle is=%d\n,area); break;
+case2: printf("enter the length and breadth of rectangle");
+scanf("%d",&l,&b); area=l*b; peri=2(l+b);
+printf("area of rectangle=%d\n,area);
+printf("peri of rectangle=%d\n,peri);break;
+case3: printf("enter the side of squar");
+scanf("%d",&s); area=s*s; peri=4*s;
+printf("area  of squar=%d\n",area);
+printf("peri of squar=%d\n,peri); break;
+default;
+printf("n not found");}}
+ 
